@@ -3,9 +3,9 @@
 //props change huda pani component re-render hunxa
 function Button({ title, handleClick, variant }) {
   const getColor = () => {
-    if (variant === "danger") return "red";
-    if (variant === "success") return "green";
-    return "blue";
+    if (variant === "danger") return "pink";
+    if (variant === "success") return "purple";
+    return "green";
   };
   return (
     <button
